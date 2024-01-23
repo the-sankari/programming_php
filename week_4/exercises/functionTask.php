@@ -1,6 +1,6 @@
-// Kajol Sutra Dhar
 
 <?php
+// Kajol Sutra Dhar
 /**
  * Write a function called checkAge
  * Which will return true if the age is equal or over 18
