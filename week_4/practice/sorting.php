@@ -1,6 +1,6 @@
-// Kajol Sutra Dhar
 
 <?php
+// Kajol Sutra Dhar
 // Original array of customer ages
 $customerAges = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
