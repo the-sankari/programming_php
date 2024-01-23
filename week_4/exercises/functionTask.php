@@ -42,3 +42,21 @@
  
 
  print var_dump(checkAge(25));
+
+ /**
+    True 
+    True 
+    Age: 25 True 
+
+    Age: -2 False 
+
+    Age: 12 False 
+
+    Age: XL False 
+
+    Age: 25 1
+    Age: -2 
+    Age: 12 
+    Age: XL 
+    bool(true)
+  */
