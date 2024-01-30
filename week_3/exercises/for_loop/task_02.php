@@ -1,15 +1,16 @@
 <?php
 
+function result($number1, $number2){
+    
+    $sum = 0; // initialize the sum variable
 
-$number1 = 1;
-$number2 = 5;
-$sum = 0;
+    for ($number1; $number1 <= $number2; $number1++) {  // runs the loop upto number2 value
+        $sum += $number1;
+        if ($sum == 20)break; // checks to break the loops for printing calculation
+        print "$number1 + $sum = $sum\n";
+    }
 
-for ($number1; $number1 <= $number2; $number1++) { 
-    $sum += $number1;
-    if ($sum >= 15)break;
-    // print "Number 1: + Number1: = Sum\n";
-    print "$sum + $number2 = $sum\n";
+    print "Sum : $sum";
 }
 
-print "Sum: $sum";
+result(1, 5);   // function call
