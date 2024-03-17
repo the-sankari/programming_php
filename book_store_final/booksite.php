@@ -51,7 +51,8 @@
                     $author = $book['author'];
                     $year = $book['year'];
                     $description = $book['description'];
-                    $isFavorite = isset($_COOKIE['favorites']) && in_array($id, explode(',', $_COOKIE['favorites']));
+                    // get the favorite behaivor
+                    $isFavorite = isset($_COOKIE['favorites']) && in_array($id, explode(',', $_COOKIE['favorites'])); 
 
                     echo "<section class='book'>";
                     echo "<a class='bookmark fa " . ($isFavorite ? "fa-star" : "fa-star-o") . "' href='setfavorite.php?id=$id'></a>";
