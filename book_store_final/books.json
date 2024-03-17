@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "description": "Harper Lee's masterpiece explores racial injustice and moral growth through the eyes of a young girl in the American South.",
+    "genres": ["classic", "coming-of-age"]
+  },
+  {
+    "id": 2,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "description": "One of the most beloved novels in English literature, Pride and Prejudice follows the emotional development of Elizabeth Bennet.",
+    "genres": ["classic", "romance"]
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "description": "George Orwell's dystopian novel about the dangers of totalitarianism, censorship, and surveillance.",
+    "genres": ["classic", "dystopian"]
+  },
+  {
+    "id": 4,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "description": "A controversial novel following Holden Caulfield, a disenchanted teenager, through his adventures in New York City.",
+    "genres": ["coming-of-age"]
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "description": "F. Scott Fitzgerald's classic novel exploring themes of decadence, idealism, and the American Dream.",
+    "genres": ["classic", "romance"]
+  },
+  {
+    "id": 6,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "description": "Herman Melville's epic tale of obsession and revenge, centered around the monomaniacal Captain Ahab's pursuit of the great white whale.",
+    "genres": ["classic", "adventure"]
+  },
+  {
+    "id": 7,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "description": "Charlotte Brontë's classic novel follows the experiences of its eponymous heroine as she matures into adulthood.",
+    "genres": ["classic", "romance"]
+  },
+  {
+    "id": 8,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "description": "Mary Shelley's groundbreaking novel exploring the consequences of scientific ambition and the nature of humanity.",
+    "genres": ["classic", "horror", "science-fiction"]
+  },
+  {
+    "id": 9,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "description": "Emily Brontë's haunting tale of love, revenge, and the destructive power of passion set on the Yorkshire moors.",
+    "genres": ["classic", "romance", "gothic"]
+  },
+  {
+    "id": 10,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "description": "Oscar Wilde's only novel, exploring the nature of beauty, morality, and the pursuit of pleasure.",
+    "genres": ["classic", "philosophical", "gothic"]
+  },
+  {
+    "id": 11,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "description": "Aldous Huxley's dystopian novel set in a future society where citizens are engineered through eugenics and conditioned to be content with their roles in the world.",
+    "genres": ["dystopian", "science-fiction"]
+  },
+  {
+    "id": 12,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "description": "J.R.R. Tolkien's epic high-fantasy novel follows the quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+    "genres": ["fantasy", "adventure"]
+  },
+  {
+    "id": 13,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "description": "J.R.R. Tolkien's beloved children's fantasy novel follows Bilbo Baggins on an unexpected adventure to reclaim the Lonely Mountain and its treasure from the dragon Smaug.",
+    "genres": ["fantasy", "adventure"]
+  },
+  {
+    "id": 14,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "description": "The first novel in J.K. Rowling's Harry Potter series, chronicling the young wizard's first year at Hogwarts School of Witchcraft and Wizardry.",
+    "genres": ["fantasy", "coming-of-age"]
+  },
+  {
+    "id": 15,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J.K. Rowling",
+    "year": 1998,
+    "description": "The second novel in J.K. Rowling's Harry Potter series, following Harry's second year at Hogwarts and his encounter with the mysterious Chamber of Secrets.",
+    "genres": ["fantasy", "coming-of-age"]
+  },
+  {
+    "id": 16,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "description": "George Orwell's dystopian novel set in a totalitarian regime, where individuality and free thought are suppressed by the omnipresent Big Brother.",
+    "genres": ["dystopian", "political-fiction"]
+  },
+  {
+    "id": 17,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "description": "Aldous Huxley's dystopian novel depicting a future society where citizens are engineered and conditioned for conformity and stability.",
+    "genres": ["dystopian", "science-fiction"]
+  },
+  {
+    "id": 18,
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "year": 1954,
+    "description": "William Golding's allegorical novel exploring the descent into savagery of a group of British boys stranded on a deserted island.",
+    "genres": ["allegory", "psychological-fiction"]
+  },
+  {
+    "id": 19,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "author": "J.K. Rowling",
+    "year": 2005,
+    "description": "The sixth novel in J.K. Rowling's Harry Potter series, delving into the past and secrets of Lord Voldemort while Harry prepares for the final confrontation.",
+    "genres": ["fantasy", "coming-of-age"]
+  },
+  {
+    "id": 20,
+    "title": "Harry Potter and the Deathly Hallows",
+    "author": "J.K. Rowling",
+    "year": 2007,
+    "description": "The seventh and final novel in J.K. Rowling's Harry Potter series, chronicling Harry's quest to destroy the remaining Horcruxes and defeat Voldemort.",
+    "genres": ["fantasy", "coming-of-age"]
+  }
+]
