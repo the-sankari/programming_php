@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 02</title>
+    <style>
+      body {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: cursive;
+      }
+      .form-container {
+        max-width: 70%;
+        width: 500px;
+        max-height: 600px;
+        height: 60%;
+        background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding: 20px;
+      }
+
+      input[type='text'],input[type='password'], input[type='email'] {
+        width: 100%;
+        height: 30px;
+        margin: 4px;
+        margin-bottom: 14px;
+        border-radius: 6px;
+        border: none;
+        padding-left: 10px;
+      }
+
+      button {
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+        background-color: #33bf33dd;
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="index3.php" method="post">
+        Name:
+        <input type="text" name="name" id="name" placeholder="Enter name" /><br />
+        Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="i.g: demo@example.invalid"
+        /><br />
+        Password:
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="at least 8 chacter"
+          min="8"
+        /><br />
+        Confirm Password:
+        <input
+          type="password"
+          name="confirmPassword"
+          id="confirmPassword"
+          placeholder="repeat your password"
+          min="8"
+        /><br />
+        Gender: <br />
+        <label for="male">
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            id="male"
+          />Male </label
+        ><br />
+        <label for="female">
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            id="female"
+          />Female </label
+        ><br />
+
+        <label for="other">
+          <input type="radio" name="gender" value="" id="other" />Other
+          <input type="text" name="other" /> </label
+        ><br />
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
